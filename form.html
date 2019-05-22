@@ -31,12 +31,12 @@
     <label>Вкажіть вашу стать </label> <label>  <input type="radio" name="gender" value="чоловік" required> Чоловік</label>
     <label>  <input type="radio" name="gender" value="жінка" required> Жінка </label>
     <label>  <input type="radio" name="gender" value="інша стать" required> Іншa стать </label> <br><br>
-    <label> Ви маєте дітей?  </label> <label> <input type="radio" value="yes" required> Так</label>
-    <label><input type="radio" value="no" required>Ні</label> <br> <br>
+    <label> Ви маєте дітей?  </label> <label> <input type="radio" value="yes" name="children" required> Так</label>
+    <label><input type="radio" value="no" name="children" required>Ні</label> <br> <br>
     <label>1.Скільки годин вдень  ви проводите на свіжому повітрі?</label> <br>
-    <label><input type="radio" value="менше 30-ти вилин" required>менше 30-ти хвилин</label> <br>
-    <label><input type="radio" value="1-2 години" required>1-2 години</label> <br>
-    <label><input type="radio" value="більше двох годин" required>більше двох годин</label> <br><br>
+    <label><input type="radio" value="менше 30-ти вилин" name="hour" required>менше 30-ти хвилин</label> <br>
+    <label><input type="radio" value="1-2 години" name="hour" required>1-2 години</label> <br>
+    <label><input type="radio" value="більше двох годин"  name="hour" required>більше двох годин</label> <br><br>
     <label>2.Чим ви зазвичай снідаєте?</label> <br>
     <label><input type="checkbox" value="салат" >салат</label> <br>
     <label><input type="checkbox" value="не снідаю" >не снідаю</label> <br>
@@ -45,9 +45,9 @@
     <label><input type="checkbox" value="яйце" >яйце</label> <br>
     <label><input type="checkbox" value="бутерброд" >бутерброд</label> <br><br>
     <label>3.Як часто ви вживаєте алкоголь?</label> <br>
-    <label><input type="radio" value="часто" required>часто</label> <br>
-    <label><input type="radio" value="2-4 рази на місяць" required>2-4 рази на місяць</label> <br>
-    <label><input type="radio" value="дуже рідко або взагалі не вживаю" required>дуже рідко або взагалі не вживаю</label> <br><br>
+    <label><input type="radio" value="часто"  name="alcohol" required>часто</label> <br>
+    <label><input type="radio" value="2-4 рази на місяць" name="alcohol" required>2-4 рази на місяць</label> <br>
+    <label><input type="radio" value="дуже рідко або взагалі не вживаю"  name="alcohol" required>дуже рідко або взагалі не вживаю</label> <br><br>
     <label>Вкажіть будь ласка дату свого народження</label>
     <label> <input type="date" name="b-day" max="2010-12-31" min="1920-01-01"></label><br><br>
     <label><input type="submit" value="відправити дані"></label>
